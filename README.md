@@ -4,7 +4,7 @@ This project uses TestCafe for end-to-end testing of web applications with compr
 
 ## Installation
 
-TestCafe is already installed. If you need to reinstall:
+TestCafe Install using following command:
 
 ```bash
 npm install --save-dev testcafe
@@ -81,17 +81,6 @@ The `testcafe.config.js` file contains various configuration options:
 - Screenshot and video settings
 - Timeout configurations
 - Parallel execution settings
-
-## Features
-
-- **Cross-browser testing** - Test in Chrome, Firefox, Safari, and more
-- **No WebDriver required** - TestCafe handles browser automation
-- **Modern JavaScript support** - Use ES6+ features
-- **Built-in assertions** - Rich assertion library
-- **Screenshots and videos** - Automatic capture on failures
-- **Live mode** - Watch for changes and re-run tests
-- **Parallel execution** - Run tests concurrently
-- **Multiple reporters** - HTML, JSON, and custom reports
 
 ## CI/CD Integration
 
