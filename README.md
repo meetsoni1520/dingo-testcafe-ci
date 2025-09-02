@@ -1,7 +1,5 @@
 # Dingo - TestCafe Project
 
-[![TestCafe CI](https://github.com/yourusername/dingo/actions/workflows/testcafe-simple.yml/badge.svg)](https://github.com/yourusername/dingo/actions/workflows/testcafe-simple.yml)
-
 This project uses TestCafe for end-to-end testing of web applications with comprehensive CI/CD integration.
 
 ## Installation
