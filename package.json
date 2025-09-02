@@ -1,0 +1,18 @@
+{
+  "name": "dingo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/ --disable-native-automation",
+    "test:headless": "testcafe chrome:headless tests/ --disable-native-automation",
+    "test:live": "testcafe --live-mode tests/ --disable-native-automation"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "testcafe": "^3.7.2"
+  }
+}
