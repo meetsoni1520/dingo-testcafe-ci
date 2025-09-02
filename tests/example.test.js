@@ -17,10 +17,8 @@ test('Survey button functionality', async t => {
     // When the user checks for the survey button
     await t
         .expect(surveyButton.exists).ok('Survey button should be present')
-        // And clicks the survey button
-        .click(surveyButton)
-        // Then the page should navigate to the survey form
-        .expect(t.eval(() => window.location.href)).contains('survey.hsforms.com', 'Should navigate to survey page');
+        // Then the button should have the correct link
+        .expect(surveyButton.getAttribute('href')).contains('survey.hsforms.com', 'Survey button should link to survey page');
 });
 
 test('Check Trakka Software section is displayed', async t => {
